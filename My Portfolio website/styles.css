@@ -1,0 +1,108 @@
+@import url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 512 512'%3E%3Cpath fill='black' d='M399 384.2c-22.1-38.4-63.6-64.2-111-64.2h-64c-47.4 0-88.9 25.8-111 64.2c35.2 39.2 86.2 63.8 143 63.8s107.8-24.7 143-63.8M0 256a256 256 0 1 1 512 0a256 256 0 1 1-512 0m256 16a72 72 0 1 0 0-144a72 72 0 1 0 0 144'/%3E%3C/svg%3E");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+/* Navbar Section */
+.desktop-nav{
+    display: flex;
+    gap: 200px;
+    justify-content: space-around;
+    padding-top: 2rem;
+    /* box-shadow: 0px 2px 4px 0px rgb(0, 0, 0, 0.5); */
+}
+.name-logo h4{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 22px;
+}
+.navbar ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+/* About */
+#about{
+    /* padding-top: 100px; */
+    padding: 100px 0 0 0; 
+    text-align: center;
+}
+.img-about{
+    padding: 1rem;
+    margin: auto;
+}
+.img-about svg{
+    width: 200px;
+    height: 100px;
+}
+.description-about{
+    padding: 10px;
+    line-height: 33px;
+}
+.description-about h2{
+    color: grey;
+}
+.button-about{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.button-about button{
+    width: 120px;
+    height: 40px;
+    margin-block: 10px;
+
+    border: 2px solid;
+    border-radius: 20px;
+
+    cursor: pointer;
+}
+.button-about button:first-child{
+    background-color: white;
+    font-weight: bolder;
+
+    transition: 0.3s;
+}
+.button-about button:first-child:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 2px solid black;
+}
+.button-about button:last-child{
+    background-color: rgb(0, 0, 0);
+    font-weight: bolder;
+    color: white;
+    border: 2px solid black;
+    transition: 0.3s;
+}
+.button-about button:last-child:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.social-media-about{
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+
+    list-style: none;   
+
+    /* line-height: 50px; */
+
+    margin-top: 10px;
+}
+.social-media-about li a{
+    color: black;
+    font-size: 40px; 
+    
+}
+.social-media-about li a:hover{
+    color: grey;
+    
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Animated Login Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+
+    <nav id="navbar">
+        <section id="button-section">
+            <button class="icon-button" id="dark-mode-button">
+                <i class="fas fa-moon"></i>
+            </button>
+        </section>
+    </nav>
+    
+
+    <div class="container">
+        <div class="center">
+            <h1>Login</h1>
+            <form method="post">
+                <div class="txt_field">
+                    <input type="text" required>
+                    <span></span>
+                    <label>Username</label>
+                </div>
+                <div class="txt_field">
+                    <input type="password" required>
+                    <span></span>
+                    <label>Password</label>
+                </div>
+                <div class="pass">Forgot Password?</div>
+                <input type="submit" value="Login">
+                <div class="signup_link">
+                    Not a member? <a href="#">Signup</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- <header>
+    <nav>
+        <button id="toggle-dark-mode">Toggle Dark Mode</button>
+    </nav>
+    </header> -->
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const toggleDarkModeBtn = document.getElementById('dark-mode-button');
+            
+            toggleDarkModeBtn.addEventListener('click', () => {
+                document.body.classList.toggle('dark-mode');
+            });
+        });
+        
+
+    </script>
+</body>
+</html>
