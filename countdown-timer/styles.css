@@ -11,6 +11,11 @@
 .header{
     text-align: center;
     margin-top: 200px;
+    letter-spacing: 3px;
+}
+
+.header p{
+    font-size: 18px;
 }
 
 .content-wrapper{
